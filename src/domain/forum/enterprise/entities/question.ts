@@ -27,6 +27,10 @@ export class Question extends Entity<QuestionProps> {
     return this.props.title
   }
 
+  get slug(): Slug {
+    return this.props.slug
+  }
+
   get content(): string {
     return this.props.content
   }
