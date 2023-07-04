@@ -30,6 +30,7 @@ export class Question extends Entity<QuestionProps> {
   get content(): string {
     return this.props.content
   }
+
   get createdAt(): Date {
     return this.props.createdAt
   }
