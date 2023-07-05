@@ -34,8 +34,6 @@ describe('Fetch Recent Questions', () => {
       page: 1,
     })
 
-    console.log(questions)
-
     expect(questions).toEqual([
       expect.objectContaining({
         createdAt: new Date('2021-01-04T00:00:00'),
