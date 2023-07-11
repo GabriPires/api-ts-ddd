@@ -12,7 +12,7 @@ describe('Either', () => {
   it('success result', () => {
     const result = doSomething(true)
 
-    expect(result.value).toEqual('success')
+    expect(result.value).toEqual(1)
     expect(result.isRight()).toBeTruthy()
     expect(result.isLeft()).toBeFalsy()
   })
